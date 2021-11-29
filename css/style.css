@@ -1,4 +1,33 @@
-@import 'general';
-@import 'header';
-@import 'homepage';
-@import 'contact';
+/* HEADER STYLES*********************************************/
+header {
+    background-color: #2A2D34;
+    text-align: center;
+    line-height: 0;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    width: 100%;
+    
+}
+
+header .primary-menu {
+    text-align: right;
+}
+
+header .primary-menu .menu-items{
+    margin: 0;
+    line-height: 1.2em;
+}
+
+header .primary-menu .menu-items li{
+    display: inline-block;
+    padding: 0;
+    text-decorations: none;
+    margin-right: 22px;
+    font-family: arial;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1.22px;
+}
+
+/* END OF HEADER STYLES*********************************************/
